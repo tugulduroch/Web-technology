@@ -1,62 +1,33 @@
-body {
-	font-family: Tahoma, Arial, sans-serif;
-	font-size: 40px;
+html,body {
+    height: 100%;
+    margin: 0;
+    font-family: "Tahoma", sans-serif;
 }
-.sub-container {
-	display: flex;
-	flex-direction: row;
-	position: fixed;
-	top: 10;
-	left: 10;
+
+.container {
+    display: flex;
+    min-height: 100%;
 }
-.sub-container2 {
-	display: flex;
-	flex-direction: row;
-	position: fixed;
-	bottom: 0;
-	right: 0;
+
+.block {
+    background-color: #EEEFF2;
+    border-left: 10px dotted #D0D0FF;
+    flex-shrink: 0;
+    font-size: 40px;
+    height: 140px;
+    margin: 5px;
+    padding: 10px 0 0 10px;
+    width: 90px;
 }
-.A {
-	width: 90px;
-	height: 150px;
-	border-left: 10px;
-	border-left-color: #D0D0FF;
-	padding-left: 10px;
-	text-align: left;
-	background-color: #eeeff2;
+
+.block:hover {
+    background-color: yellow;
+    color: goldenrod;
+    cursor: pointer;
 }
-.A:hover {
-	background-color: yellow;
-	cursor: pointer;
-}
-.B {
-	width: 90px;
-	height: 150px;
-	border-left: 10px;
-	border-left-color: #D0D0FF;
-	padding-left: 10px;
-	text-align: left;
-	background-color: #eeeff2;
-}
-.B:hover {
-	background-color: yellow;
-	cursor: pointer;
-}
-.spc {
-	width: 90px;
-	height: 10px;
-	background-color: white;
-}
-.C {
-	width: 90px;
-	height: 150px;
-	border-left: 10px;	
-	border-left-color: #D0D0FF;
-	padding-left: 10px;
-	text-align: left;
-	background-color: #eeeff2;
-}
-.C:hover {
-	background-color: yellow;
-	cursor: pointer;
+
+.style-3 {
+    bottom: 0px;
+    position: absolute;
+    right: 0px;
 }
