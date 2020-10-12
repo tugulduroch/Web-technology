@@ -1,0 +1,68 @@
+html {
+  font-size: 10px;
+  
+  
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+  justify-content: space-around;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+thead {
+  background: seagreen;
+  color: white;
+  
+}
+
+.month-back,
+.month-forward {
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+table {
+  border-spacing: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1px black solid;
+
+}
+
+thead th {
+  padding: 1rem 0;
+}
+
+td:nth-child(even){background-color: #f2f2f2}
+
+tbody {
+  font-size: 1.4rem;
+  text-align: center;
+  
+}
+
+tbody td {
+  padding: 1rem;
+}
+
+.selectable-day:hover {
+  cursor: pointer;
+}
+
+.active {
+  background-color: seagreen !important;
+  border-radius: 10rem;
+  color: white;
+}
+
+.dimmed {
+  color: gray;
+}
