@@ -1,0 +1,32 @@
+/*
+CSS for the CS142 project #4 Problem #2 states component
+
+Since CSS uses a global name space for classes we should use names starting with
+cs142-states- here.
+
+*/
+
+.cs142-states-state {
+  font-family: "Roboto", sans-serif;
+  display: inline-block;
+  background-color: #f5c0a2;
+  padding: 10px;
+  margin: 10px;
+}
+
+.inputsearch {
+  width: 50%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+
+.Searchp {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+}
