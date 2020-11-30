@@ -1,0 +1,17 @@
+.cs142-userDetail-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cs142-userDetail-link {
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+#cs142-userDetail-text {
+  margin-left: 15px;
+  margin-top: 10px;
+}

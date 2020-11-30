@@ -1,0 +1,63 @@
+.cs142-topbar-appBar {
+  height: 60;
+  justify-content: center;
+  align-items: center;
+}
+
+#cs142-topbar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+#cs142-topbar-container .cs142-topbar-welcome {
+  padding: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+#cs142-topbar-container .cs142-topbar-logout {
+  border: 1px turquoise solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+#cs142-topbar-container .cs142-topbar-version {
+  margin-right: 10px;
+}
+
+#cs142-topbar-container .cs142-topbar-checkbox {
+  border: 1px turquoise solid;
+  border-radius: 5px;
+  padding: 0 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+
+
+#cs142-topbar-container .cs142-upload {
+  border: 1px turquoise solid;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+#cs142-topbar-container .cs142-topbar-fav {
+  border: 1px turquoise solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+#cs142-topbar-container .cs142-topbar-user {
+  /*margin-right: auto;*/
+}
+
