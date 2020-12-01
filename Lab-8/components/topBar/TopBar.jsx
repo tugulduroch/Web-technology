@@ -69,7 +69,7 @@ class TopBar extends React.Component {
                     
                     
                     <label htmlFor="contained-button-file">
-                    <Button variant="contained" color="primary" component="span"
+                    <Button variant="contained" color="primary"
                     className="cs142-topbar-upload"
                     type="submit"
                     >
